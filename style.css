@@ -1,36 +1,59 @@
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #7f00ff, #000000);
-    color: white;
-    text-align: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #000000);
+  color: white;
+  text-align: center;
 }
+
 .logo {
-    width: 100px;
-    margin-top: 20px;
+  width: 100px;
+  margin-top: 20px;
 }
+
 .hero {
-    padding: 40px 20px;
+  padding: 40px 20px;
 }
+
 .cta-button {
-    background-color: #7f00ff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+  background-color: #8855ff;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
+
+.cta-button:hover {
+  background-color: #6622cc;
+}
+
 .section {
-    padding: 30px 20px;
+  padding: 40px 20px;
 }
+
 .black {
-    background-color: #000;
+  background-color: #000000;
 }
+
 .dark {
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
+
+.founder-img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
 footer {
-    padding: 20px;
-    background-color: #111;
-    font-size: 0.9em;
+  background-color: #000000;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #bbb;
 }
+
