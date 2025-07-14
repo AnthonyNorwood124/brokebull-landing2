@@ -1,1 +1,36 @@
-body { background-color: #0D0D0D; color: white; font-family: Arial, sans-serif; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #7f00ff, #000000);
+    color: white;
+    text-align: center;
+}
+.logo {
+    width: 100px;
+    margin-top: 20px;
+}
+.hero {
+    padding: 40px 20px;
+}
+.cta-button {
+    background-color: #7f00ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.section {
+    padding: 30px 20px;
+}
+.black {
+    background-color: #000;
+}
+.dark {
+    background-color: #1a1a1a;
+}
+footer {
+    padding: 20px;
+    background-color: #111;
+    font-size: 0.9em;
+}
